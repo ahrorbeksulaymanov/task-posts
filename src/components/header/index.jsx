@@ -18,7 +18,7 @@ const Header = () => {
           <p>About Us</p>
           <p>Projects</p>
         </div>
-        {location?.pathname == "/" || location?.pathname == "/task-posts"? (
+        {location?.pathname == "/" || location?.pathname == "/task-posts/"? (
           <Link to={"/login"}>
             <button className="btn btn-dark">Login</button>
           </Link>
