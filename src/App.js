@@ -14,7 +14,8 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route
-            path="/"
+            path='/*'
+            exa
             element={
               <>
                 <Header />
