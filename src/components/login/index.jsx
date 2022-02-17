@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./style.css";
 import logo from "../../assets/images/logo.svg";
-import login from "../../assets/images/login.jpg";
+import login from "../../assets/images/login-news.jpg";
 import { useNavigate } from "react-router-dom";
 import { message } from "antd";
 
